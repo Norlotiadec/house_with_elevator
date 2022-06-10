@@ -14,5 +14,5 @@ Elevator have functions:
 + unload_people - if check_output == True, the right people are unloaded.
 + download_people - if check_input == True and the elevator have free places, the right people are downloaded. 
 
-### To start the elevator you need to create a ***house*** and call the function: ***house.work_elevator*** 
+### To start the elevator you need to create a ***house*** and call the function: ***house.work_elevator()*** 
 ##### P.S. Project haven't requirements. The clear Python.
