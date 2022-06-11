@@ -3,7 +3,7 @@ from random import randint, choice
 
 class House:
     def __init__(self):
-        self.total_floors = randint(5, 10)
+        self.total_floors = randint(5, 20)
         self.floors = {i+1: Floor(i+1, self.total_floors) for i in range(self.total_floors)}
 
     def work_elevator(self):
